@@ -1,0 +1,17 @@
+<web-app>
+	<servlet>
+		<servlet-name> abc </servlet-name>
+		<jsp-file> /config_example.jsp </jsp-file>
+		<init-param>
+			<param-name> Name </param-name>
+			<param-value> Mohd Umar </param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> abc </servlet-name>
+		<url-pattern>  /x/y/* </url-pattern>
+	</servlet-mapping>
+	<session-confi>
+		<session-timeout>3</session-timeout>
+	</session-confi>
+</web-app>

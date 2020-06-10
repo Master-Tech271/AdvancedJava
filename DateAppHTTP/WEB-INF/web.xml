@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>Date</servlet-name>
+		<servlet-class>com.um.servlet.DateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Date</servlet-name>
+		<url-pattern>/x/y/*</url-pattern>
+	</servlet-mapping>
+</web-app>

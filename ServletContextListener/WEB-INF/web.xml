@@ -1,0 +1,5 @@
+<web-app>
+	<listener>
+		<listener-class>com.um.listener.MyServletContextListener</listener-class>
+	</listener>
+</web-app>

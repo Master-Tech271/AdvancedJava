@@ -1,0 +1,18 @@
+<web-app>
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>com.um.servlet.FirstServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/first</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>second</servlet-name>
+		<servlet-class>com.um.servlet.SecondServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>second</servlet-name>
+		<url-pattern>/Servlet2</url-pattern>
+	</servlet-mapping>
+</web-app>

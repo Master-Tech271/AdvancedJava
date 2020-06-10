@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>addition</servlet-name>
+		<servlet-class>com.um.addition.Addition</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addition</servlet-name>
+		<url-pattern>/Addition</url-pattern>
+	</servlet-mapping>
+</web-app>

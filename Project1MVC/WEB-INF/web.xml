@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name> cont </servlet-name>
+		<servlet-class> com.umar.mvc.Controller </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> cont </servlet-name>
+		<url-pattern> /food.html </url-pattern>
+	</servlet-mapping>
+</web-app>

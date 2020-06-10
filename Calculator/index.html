@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+	form{
+	 width: 250px;
+	 margin: 50px auto;
+	 text-align: center;
+	 }
+  </style>
+ </head>
+ <body>
+	<form action="Calculator">
+		<fieldset>
+			<legend>Assignment-1</legend>
+			<input type="text" name="num1" placeholder="First Number" required/> <br/><br/>
+			<input type="text" name="num2" placeholder="Second Number" required/> <br/><br/>
+			<select name="calculation_type">
+				<option value="addition">Addition</option>
+				<option value="subtraction">Subtraction</option>
+				<option value="multiplication">Multiplication</option>
+				<option value="division">Division</option>
+			</select> <br/> <br/>
+			<button type="submit" >Submit</button>
+			<button type="button" onClick="reset()">Reset</button>
+		</fieldset>
+	</form>
+ </body>
+</html>
