@@ -1,0 +1,8 @@
+
+db.dbClassFile = com.mysql.jdbc.Driver
+db.url = jdbc:mysql://localhost:3306/testing?useSSL=false
+db.userName = root
+db.password = 
+
+
+query.selectAll = SELECT * FROM foodcart 
